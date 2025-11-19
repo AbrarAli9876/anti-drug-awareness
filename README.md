@@ -28,42 +28,6 @@ Icons: Lucide React
 
 Deployment: Ready for Vercel/Netlify
 
-📂 Project Structure
-
-nasha-se-azaadi/
-├── public/              # Static assets
-├── src/
-│   ├── components/      # Reusable UI components
-│   │   ├── Navbar.jsx   # Main navigation with mobile menu
-│   │   └── Footer.jsx   # Footer with quick links & official contacts
-│   │
-│   ├── data/            # Content Data (Separated from logic)
-│   │   ├── drugsData.js       # Drug types & details
-│   │   ├── effectsData.js     # Physical/Mental effects content
-│   │   ├── signsData.js       # Addiction signs & checklists
-│   │   ├── sayNoData.js       # Prevention strategies
-│   │   ├── helpFriendData.js  # Guide to helping others
-│   │   ├── helplinesData.js   # Emergency numbers & resources
-│   │   └── faqData.js         # Frequently Asked Questions
-│   │
-│   ├── pages/           # Page Views
-│   │   ├── HomePage.jsx
-│   │   ├── TypesOfDrugs.jsx
-│   │   ├── Effects.jsx
-│   │   ├── SignsOfAddiction.jsx
-│   │   ├── SayNo.jsx
-│   │   ├── HelpAFriend.jsx
-│   │   ├── Helplines.jsx
-│   │   └── FAQ.jsx
-│   │
-│   ├── App.jsx          # Main routing & layout logic
-│   └── main.jsx         # Entry point
-│
-├── index.html           # HTML entry
-├── tailwind.config.js   # Tailwind configuration
-└── package.json         # Dependencies & scripts
-
-
 ⚡ Getting Started
 
 Follow these steps to run the project locally on your machine.
