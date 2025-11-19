@@ -9,6 +9,7 @@ import SayNo from './pages/SayNo';
 import HelpAFriend from './pages/HelpAFriend';
 import Helplines from './pages/Helplines';
 import FAQ from './pages/FAQ';
+import About from './pages/About';
 
 function App() {
   const [page, setPage] = useState('home');
@@ -25,6 +26,8 @@ function App() {
       <main className="flex-grow">
         {page === 'home' ? (
           <HomePage setPage={setPage} />
+        ) : page === 'about' ? (
+          <About />
         ) : page === 'types' ? (
           <TypesOfDrugs />
         ) : page === 'effects' ? (

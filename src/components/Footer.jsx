@@ -28,6 +28,7 @@ const Footer = ({ setPage }) => {
               <li><button onClick={() => setPage('helpfriend')} className="hover:text-red-500 transition-colors">Help a Friend</button></li>
               <li><button onClick={() => setPage('helplines')} className="hover:text-red-500 transition-colors">Helplines</button></li>
               <li><button onClick={() => setPage('faq')} className="hover:text-red-500 transition-colors">FAQ</button></li>
+              <li><button onClick={() => setPage('about')} className="hover:text-red-500 transition-colors">About</button></li>
             </ul>
           </div>
           <div>

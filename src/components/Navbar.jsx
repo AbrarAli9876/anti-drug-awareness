@@ -33,6 +33,8 @@ const Navbar = ({ setPage }) => {
               <button onClick={() => handleNav('helpfriend')} className="hover:text-red-400 transition-colors px-3 py-2 rounded-md font-medium">Help Friend</button>
               <button onClick={() => handleNav('helplines')} className="hover:text-red-400 transition-colors px-3 py-2 rounded-md font-medium">Helplines</button>
               <button onClick={() => handleNav('faq')} className="hover:text-red-400 transition-colors px-3 py-2 rounded-md font-medium">FAQ</button>
+              {/* About Moved to End */}
+              <button onClick={() => handleNav('about')} className="hover:text-red-400 transition-colors px-3 py-2 rounded-md font-medium">About</button>
               
               <a href="tel:1933" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-full font-medium transition-all shadow-lg hover:shadow-red-500/50 flex items-center gap-2 text-sm">
                 <Phone className="w-4 h-4" /> Report: 1933
@@ -60,6 +62,7 @@ const Navbar = ({ setPage }) => {
           <button onClick={() => handleNav('helpfriend')} className="block w-full text-left px-3 py-2 rounded-md text-base font-medium hover:bg-slate-700 hover:text-red-400">Help Friend</button>
           <button onClick={() => handleNav('helplines')} className="block w-full text-left px-3 py-2 rounded-md text-base font-medium hover:bg-slate-700 hover:text-red-400">Helplines</button>
           <button onClick={() => handleNav('faq')} className="block w-full text-left px-3 py-2 rounded-md text-base font-medium hover:bg-slate-700 hover:text-red-400">FAQ</button>
+          <button onClick={() => handleNav('about')} className="block w-full text-left px-3 py-2 rounded-md text-base font-medium hover:bg-slate-700 hover:text-red-400">About</button>
           <a href="tel:1933" className="block mt-4 px-3 py-2 rounded-md text-base font-bold bg-red-600 text-center">Report Abuse: 1933</a>
         </div>
       )}
