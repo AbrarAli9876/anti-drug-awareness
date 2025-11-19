@@ -40,7 +40,7 @@ Installation
 
 Clone the repository (or download the source code):
 
-git clone [https://github.com/AbrarAli9876/nasha-se-azaadi.git](https://github.com/AbrarAli9876/nasha-se-azaadi.git)
+git clone [git@github.com:AbrarAli9876/anti-drug-awareness.git](git@github.com:AbrarAli9876/anti-drug-awareness.git)
 
 
 Install dependencies:
