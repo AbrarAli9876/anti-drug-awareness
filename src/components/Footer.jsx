@@ -35,8 +35,8 @@ const Footer = ({ setPage }) => {
             <h4 className="text-white font-bold uppercase tracking-wider mb-4">Contact</h4>
             <p className="text-sm mb-1 text-white font-bold">De-addiction: 1800-11-0031</p>
             <p className="text-sm mb-1 text-white font-bold">Report (NCB): 1933</p>
-            <p className="text-sm mb-1 text-white font-bold">Incidents: +91-11-26761000</p>
-            <p className="text-sm mb-1 text-white font-bold">info@ncbmanas.gov.in</p>
+            <p className="text-sm mb-3 text-slate-300">Incidents: +91-11-26761000</p>
+            <p className="text-xs text-slate-500">info@ncbmanas.gov.in</p>
           </div>
         </div>
         

@@ -10,17 +10,21 @@ import HelpAFriend from './pages/HelpAFriend';
 import Helplines from './pages/Helplines';
 import FAQ from './pages/FAQ';
 import About from './pages/About';
+import ConnectionStatus from './components/ConnectionStatus'; // CORRECTED: ConnectionStatus is now imported
 
 function App() {
   const [page, setPage] = useState('home');
 
-  // Global Scroll-To-Top: Runs every time 'page' changes
+  // Global Scroll-To-Top: Ensures the view starts at the top when changing pages
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [page]);
 
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen relative">
+      {/* Connection Status Monitor: Always active */}
+      <ConnectionStatus /> 
+
       <Navbar setPage={setPage} />
       
       <main className="flex-grow">

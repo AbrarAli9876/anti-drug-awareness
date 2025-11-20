@@ -33,7 +33,7 @@ const Navbar = ({ setPage }) => {
               <button onClick={() => handleNav('helpfriend')} className="hover:text-red-400 transition-colors px-3 py-2 rounded-md font-medium">Help Friend</button>
               <button onClick={() => handleNav('helplines')} className="hover:text-red-400 transition-colors px-3 py-2 rounded-md font-medium">Helplines</button>
               <button onClick={() => handleNav('faq')} className="hover:text-red-400 transition-colors px-3 py-2 rounded-md font-medium">FAQ</button>
-              {/* About Moved to End */}
+              {/* About Link at the end */}
               <button onClick={() => handleNav('about')} className="hover:text-red-400 transition-colors px-3 py-2 rounded-md font-medium">About</button>
               
               <a href="tel:1933" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-full font-medium transition-all shadow-lg hover:shadow-red-500/50 flex items-center gap-2 text-sm">
